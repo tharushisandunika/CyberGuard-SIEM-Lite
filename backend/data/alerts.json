@@ -1,0 +1,452 @@
+[
+  {
+    "alert_type": "Suspicious Login",
+    "severity": "Medium",
+    "source_ip": "185.220.101.5",
+    "description": "SIEM Alert triggered: Suspicious Login events detected from source node IP: 185.220.101.5",
+    "status": "Resolved",
+    "created_at": "2026-06-26T02:47:55.530688",
+    "_id": "f320996d-6e7a-4f05-a561-2b00762a844c"
+  },
+  {
+    "alert_type": "Brute Force Attack",
+    "severity": "Low",
+    "source_ip": "192.0.2.75",
+    "description": "SIEM Alert triggered: Brute Force Attack events detected from source node IP: 192.0.2.75",
+    "status": "Resolved",
+    "created_at": "2026-06-24T17:38:12.530688",
+    "_id": "811cd86c-b5f3-461b-8687-33f867e95067"
+  },
+  {
+    "alert_type": "Port Scan",
+    "severity": "Low",
+    "source_ip": "192.168.1.30",
+    "description": "SIEM Alert triggered: Port Scan events detected from source node IP: 192.168.1.30",
+    "status": "Investigating",
+    "created_at": "2026-06-22T20:42:16.530688",
+    "_id": "b4e5fe8d-0719-4d79-bd23-17e0fc8076e5"
+  },
+  {
+    "alert_type": "Suspicious Login",
+    "severity": "Medium",
+    "source_ip": "192.168.1.30",
+    "description": "SIEM Alert triggered: Suspicious Login events detected from source node IP: 192.168.1.30",
+    "status": "Closed",
+    "created_at": "2026-06-25T11:42:48.530688",
+    "_id": "27ce7a13-1fcf-4f57-93b4-ac0ef13137d4"
+  },
+  {
+    "alert_type": "Brute Force Attack",
+    "severity": "High",
+    "source_ip": "10.0.4.155",
+    "description": "SIEM Alert triggered: Brute Force Attack events detected from source node IP: 10.0.4.155",
+    "status": "Closed",
+    "created_at": "2026-06-24T14:29:49.530688",
+    "_id": "65e8ba36-930f-4bdf-b957-3cea586ad9ba"
+  },
+  {
+    "alert_type": "Malware Ingest Checked",
+    "severity": "Critical",
+    "source_ip": "10.0.4.22",
+    "description": "SIEM Alert triggered: Malware Ingest Checked events detected from source node IP: 10.0.4.22",
+    "status": "Closed",
+    "created_at": "2026-06-22T09:36:22.530688",
+    "_id": "9c6897c8-56db-4873-b435-9d56105bcc53"
+  },
+  {
+    "alert_type": "Brute Force Attack",
+    "severity": "Low",
+    "source_ip": "192.0.2.75",
+    "description": "SIEM Alert triggered: Brute Force Attack events detected from source node IP: 192.0.2.75",
+    "status": "Open",
+    "created_at": "2026-06-26T10:29:21.530688",
+    "_id": "19ea03e1-0715-4c88-91c7-d5ef0baaef30"
+  },
+  {
+    "alert_type": "Brute Force Attack",
+    "severity": "Critical",
+    "source_ip": "192.168.1.15",
+    "description": "SIEM Alert triggered: Brute Force Attack events detected from source node IP: 192.168.1.15",
+    "status": "Resolved",
+    "created_at": "2026-06-24T14:48:08.530688",
+    "_id": "90cc778c-8cb9-439f-a721-ff94ba8053f0"
+  },
+  {
+    "alert_type": "Malware Ingest Checked",
+    "severity": "Medium",
+    "source_ip": "192.0.2.75",
+    "description": "SIEM Alert triggered: Malware Ingest Checked events detected from source node IP: 192.0.2.75",
+    "status": "Closed",
+    "created_at": "2026-06-25T14:10:07.530688",
+    "_id": "0ac9c49e-76b1-4aef-8ed3-3f582ba4acfc"
+  },
+  {
+    "alert_type": "Suspicious Login",
+    "severity": "Low",
+    "source_ip": "10.0.4.22",
+    "description": "SIEM Alert triggered: Suspicious Login events detected from source node IP: 10.0.4.22",
+    "status": "Resolved",
+    "created_at": "2026-06-24T22:26:36.530688",
+    "_id": "c08facf1-1e76-4b8b-81b7-377ca08f4eb9"
+  },
+  {
+    "alert_type": "Unauthorized File Modification",
+    "severity": "Critical",
+    "source_ip": "192.168.1.15",
+    "description": "SIEM Alert triggered: Unauthorized File Modification events detected from source node IP: 192.168.1.15",
+    "status": "Investigating",
+    "created_at": "2026-06-22T04:25:42.530688",
+    "_id": "ce1370fa-7a29-4f5c-8876-fd02734d18be"
+  },
+  {
+    "alert_type": "Brute Force Attack",
+    "severity": "Low",
+    "source_ip": "10.0.4.155",
+    "description": "SIEM Alert triggered: Brute Force Attack events detected from source node IP: 10.0.4.155",
+    "status": "Closed",
+    "created_at": "2026-06-23T02:19:15.530688",
+    "_id": "74fe9b47-caaa-465e-bc18-6c52236db8ba"
+  },
+  {
+    "alert_type": "Malware Ingest Checked",
+    "severity": "High",
+    "source_ip": "198.51.100.12",
+    "description": "SIEM Alert triggered: Malware Ingest Checked events detected from source node IP: 198.51.100.12",
+    "status": "Resolved",
+    "created_at": "2026-06-24T00:12:55.530688",
+    "_id": "01b2cd2c-b876-4c6f-ad7f-e16837fe1bb7"
+  },
+  {
+    "alert_type": "Unauthorized File Modification",
+    "severity": "High",
+    "source_ip": "192.0.2.75",
+    "description": "SIEM Alert triggered: Unauthorized File Modification events detected from source node IP: 192.0.2.75",
+    "status": "Investigating",
+    "created_at": "2026-06-25T22:59:23.530688",
+    "_id": "fba36096-a785-4fd2-aae9-546d5c79ec10"
+  },
+  {
+    "alert_type": "Brute Force Attack",
+    "severity": "Critical",
+    "source_ip": "10.0.4.155",
+    "description": "SIEM Alert triggered: Brute Force Attack events detected from source node IP: 10.0.4.155",
+    "status": "Investigating",
+    "created_at": "2026-06-23T19:24:54.530688",
+    "_id": "b8d476cb-5138-4327-9b12-b92475f8c600"
+  },
+  {
+    "alert_type": "Unauthorized File Modification",
+    "severity": "Medium",
+    "source_ip": "10.0.4.22",
+    "description": "SIEM Alert triggered: Unauthorized File Modification events detected from source node IP: 10.0.4.22",
+    "status": "Resolved",
+    "created_at": "2026-06-24T05:35:13.530688",
+    "_id": "c8a6e378-e44e-4b92-8640-1a5926e2fdea"
+  },
+  {
+    "alert_type": "Unauthorized File Modification",
+    "severity": "Critical",
+    "source_ip": "192.0.2.75",
+    "description": "SIEM Alert triggered: Unauthorized File Modification events detected from source node IP: 192.0.2.75",
+    "status": "Investigating",
+    "created_at": "2026-06-25T14:30:30.530688",
+    "_id": "6471abfd-3f95-484e-af1c-f80f5b00862a"
+  },
+  {
+    "alert_type": "Malware Ingest Checked",
+    "severity": "High",
+    "source_ip": "185.220.101.5",
+    "description": "SIEM Alert triggered: Malware Ingest Checked events detected from source node IP: 185.220.101.5",
+    "status": "Closed",
+    "created_at": "2026-06-22T06:34:48.530688",
+    "_id": "523422a9-8f35-4374-81f6-b8e0cf4ecc8a"
+  },
+  {
+    "alert_type": "Malware Ingest Checked",
+    "severity": "Low",
+    "source_ip": "203.0.113.15",
+    "description": "SIEM Alert triggered: Malware Ingest Checked events detected from source node IP: 203.0.113.15",
+    "status": "Closed",
+    "created_at": "2026-06-25T15:52:36.530688",
+    "_id": "d7d6b93c-231d-4fa2-b5fc-3b9650852441"
+  },
+  {
+    "alert_type": "Brute Force Attack",
+    "severity": "Low",
+    "source_ip": "172.16.8.99",
+    "description": "SIEM Alert triggered: Brute Force Attack events detected from source node IP: 172.16.8.99",
+    "status": "Closed",
+    "created_at": "2026-06-25T17:48:29.530688",
+    "_id": "743112fe-928c-4180-9c92-86b3f8752f01"
+  },
+  {
+    "alert_type": "Unauthorized File Modification",
+    "severity": "Critical",
+    "source_ip": "10.0.4.155",
+    "description": "SIEM Alert triggered: Unauthorized File Modification events detected from source node IP: 10.0.4.155",
+    "status": "Open",
+    "created_at": "2026-06-25T20:36:31.530688",
+    "_id": "1990dbc4-915c-44d3-8bfc-9085e6c01c1b"
+  },
+  {
+    "alert_type": "Malware Ingest Checked",
+    "severity": "Critical",
+    "source_ip": "198.51.100.101",
+    "description": "SIEM Alert triggered: Malware Ingest Checked events detected from source node IP: 198.51.100.101",
+    "status": "Investigating",
+    "created_at": "2026-06-26T09:45:33.530688",
+    "_id": "063b9b7f-2893-40c1-b1aa-a6b501167ebe"
+  },
+  {
+    "alert_type": "Suspicious Login",
+    "severity": "High",
+    "source_ip": "172.16.8.99",
+    "description": "SIEM Alert triggered: Suspicious Login events detected from source node IP: 172.16.8.99",
+    "status": "Closed",
+    "created_at": "2026-06-24T08:18:28.530688",
+    "_id": "87c89f72-dfb0-48e4-8106-c8106fa3f54f"
+  },
+  {
+    "alert_type": "Suspicious Login",
+    "severity": "Low",
+    "source_ip": "192.168.1.15",
+    "description": "SIEM Alert triggered: Suspicious Login events detected from source node IP: 192.168.1.15",
+    "status": "Investigating",
+    "created_at": "2026-06-23T08:09:09.530688",
+    "_id": "eaa20fdb-9f96-47f9-b671-b149ea85dafa"
+  },
+  {
+    "alert_type": "Suspicious Login",
+    "severity": "Low",
+    "source_ip": "203.0.113.50",
+    "description": "SIEM Alert triggered: Suspicious Login events detected from source node IP: 203.0.113.50",
+    "status": "Closed",
+    "created_at": "2026-06-21T23:03:53.530688",
+    "_id": "5419f7d3-cc07-4602-9747-84c2d55cd347"
+  },
+  {
+    "alert_type": "Brute Force Attack",
+    "severity": "Medium",
+    "source_ip": "198.51.100.12",
+    "description": "SIEM Alert triggered: Brute Force Attack events detected from source node IP: 198.51.100.12",
+    "status": "Investigating",
+    "created_at": "2026-06-21T18:00:51.530688",
+    "_id": "e2b655f5-7c87-4b47-8ef0-7c97a6fee440"
+  },
+  {
+    "alert_type": "Malware Ingest Checked",
+    "severity": "Medium",
+    "source_ip": "10.0.4.155",
+    "description": "SIEM Alert triggered: Malware Ingest Checked events detected from source node IP: 10.0.4.155",
+    "status": "Closed",
+    "created_at": "2026-06-22T06:54:44.530688",
+    "_id": "ade1b0a3-0f3a-4f30-ad39-77cb86b6d37b"
+  },
+  {
+    "alert_type": "Unauthorized File Modification",
+    "severity": "Medium",
+    "source_ip": "192.168.1.15",
+    "description": "SIEM Alert triggered: Unauthorized File Modification events detected from source node IP: 192.168.1.15",
+    "status": "Resolved",
+    "created_at": "2026-06-25T02:03:40.530688",
+    "_id": "9df3ab94-c4ff-4e34-9dc6-96e7313e5c7e"
+  },
+  {
+    "alert_type": "Unauthorized File Modification",
+    "severity": "Medium",
+    "source_ip": "198.51.100.12",
+    "description": "SIEM Alert triggered: Unauthorized File Modification events detected from source node IP: 198.51.100.12",
+    "status": "Investigating",
+    "created_at": "2026-06-26T13:31:15.530688",
+    "_id": "1896fdcf-94f8-41e2-82cb-3967e6b1fec0"
+  },
+  {
+    "alert_type": "Brute Force Attack",
+    "severity": "Critical",
+    "source_ip": "203.0.113.50",
+    "description": "SIEM Alert triggered: Brute Force Attack events detected from source node IP: 203.0.113.50",
+    "status": "Closed",
+    "created_at": "2026-06-26T04:31:35.530688",
+    "_id": "b31d8da8-aad6-4341-9a50-abb4f1a1a268"
+  },
+  {
+    "alert_type": "Unauthorized File Modification",
+    "severity": "High",
+    "source_ip": "203.0.113.15",
+    "description": "SIEM Alert triggered: Unauthorized File Modification events detected from source node IP: 203.0.113.15",
+    "status": "Resolved",
+    "created_at": "2026-06-24T07:46:39.530688",
+    "_id": "9417ce88-c969-462a-a66b-625317006863"
+  },
+  {
+    "alert_type": "Port Scan",
+    "severity": "Critical",
+    "source_ip": "198.51.100.12",
+    "description": "SIEM Alert triggered: Port Scan events detected from source node IP: 198.51.100.12",
+    "status": "Open",
+    "created_at": "2026-06-24T14:40:38.530688",
+    "_id": "8ba939de-266b-4e13-9e60-46612eee40d5"
+  },
+  {
+    "alert_type": "Malware Ingest Checked",
+    "severity": "High",
+    "source_ip": "185.220.101.5",
+    "description": "SIEM Alert triggered: Malware Ingest Checked events detected from source node IP: 185.220.101.5",
+    "status": "Resolved",
+    "created_at": "2026-06-26T05:54:55.530688",
+    "_id": "c923ed6c-a077-4a58-b861-41ce35e4b567"
+  },
+  {
+    "alert_type": "Port Scan",
+    "severity": "Critical",
+    "source_ip": "10.0.4.155",
+    "description": "SIEM Alert triggered: Port Scan events detected from source node IP: 10.0.4.155",
+    "status": "Investigating",
+    "created_at": "2026-06-22T03:06:03.530688",
+    "_id": "00393ed3-a727-4204-acb2-976255a9d377"
+  },
+  {
+    "alert_type": "Port Scan",
+    "severity": "Medium",
+    "source_ip": "192.0.2.75",
+    "description": "SIEM Alert triggered: Port Scan events detected from source node IP: 192.0.2.75",
+    "status": "Open",
+    "created_at": "2026-06-25T16:24:48.530688",
+    "_id": "7774b598-539a-4e21-8c10-0cb29dbb5bf7"
+  },
+  {
+    "alert_type": "Suspicious Login",
+    "severity": "Critical",
+    "source_ip": "192.0.2.75",
+    "description": "SIEM Alert triggered: Suspicious Login events detected from source node IP: 192.0.2.75",
+    "status": "Investigating",
+    "created_at": "2026-06-25T16:49:45.530688",
+    "_id": "12d8af76-7871-43a2-a723-c8779c1f5120"
+  },
+  {
+    "alert_type": "Unauthorized File Modification",
+    "severity": "Low",
+    "source_ip": "10.0.4.155",
+    "description": "SIEM Alert triggered: Unauthorized File Modification events detected from source node IP: 10.0.4.155",
+    "status": "Closed",
+    "created_at": "2026-06-21T22:28:43.530688",
+    "_id": "a43e022f-2701-467d-80b5-f7d81c145c6e"
+  },
+  {
+    "alert_type": "Port Scan",
+    "severity": "Medium",
+    "source_ip": "192.0.2.75",
+    "description": "SIEM Alert triggered: Port Scan events detected from source node IP: 192.0.2.75",
+    "status": "Open",
+    "created_at": "2026-06-23T23:08:35.530688",
+    "_id": "acef8ac2-e883-4c58-abf2-55bf3f2f7ccc"
+  },
+  {
+    "alert_type": "Malware Ingest Checked",
+    "severity": "Medium",
+    "source_ip": "185.220.101.5",
+    "description": "SIEM Alert triggered: Malware Ingest Checked events detected from source node IP: 185.220.101.5",
+    "status": "Closed",
+    "created_at": "2026-06-23T16:25:45.530688",
+    "_id": "6ea1df34-d979-47fa-9a0f-906a2a61cfbb"
+  },
+  {
+    "alert_type": "Brute Force Attack",
+    "severity": "Low",
+    "source_ip": "185.220.101.5",
+    "description": "SIEM Alert triggered: Brute Force Attack events detected from source node IP: 185.220.101.5",
+    "status": "Resolved",
+    "created_at": "2026-06-24T05:09:32.530688",
+    "_id": "4437181e-cce0-4c72-8bd8-7133d1a55bd3"
+  },
+  {
+    "alert_type": "Malware Ingest Checked",
+    "severity": "Critical",
+    "source_ip": "10.0.4.22",
+    "description": "SIEM Alert triggered: Malware Ingest Checked events detected from source node IP: 10.0.4.22",
+    "status": "Closed",
+    "created_at": "2026-06-23T17:08:32.530688",
+    "_id": "eb57f97a-b723-4f0b-ad1e-a930bb055d2e"
+  },
+  {
+    "alert_type": "Port Scan",
+    "severity": "Medium",
+    "source_ip": "198.51.100.101",
+    "description": "SIEM Alert triggered: Port Scan events detected from source node IP: 198.51.100.101",
+    "status": "Open",
+    "created_at": "2026-06-23T20:00:02.530688",
+    "_id": "09b1b3fc-0e8d-4240-bebe-4f64f3df6db4"
+  },
+  {
+    "alert_type": "Unauthorized File Modification",
+    "severity": "Critical",
+    "source_ip": "192.168.1.15",
+    "description": "SIEM Alert triggered: Unauthorized File Modification events detected from source node IP: 192.168.1.15",
+    "status": "Resolved",
+    "created_at": "2026-06-26T10:39:59.530688",
+    "_id": "18cdff0a-ebcd-4318-abe1-12bf903f4270"
+  },
+  {
+    "alert_type": "Malware Ingest Checked",
+    "severity": "Medium",
+    "source_ip": "10.0.4.22",
+    "description": "SIEM Alert triggered: Malware Ingest Checked events detected from source node IP: 10.0.4.22",
+    "status": "Resolved",
+    "created_at": "2026-06-22T03:53:01.530688",
+    "_id": "1caca1b0-7aee-407f-8454-5ce097ed3775"
+  },
+  {
+    "alert_type": "Port Scan",
+    "severity": "Medium",
+    "source_ip": "198.51.100.101",
+    "description": "SIEM Alert triggered: Port Scan events detected from source node IP: 198.51.100.101",
+    "status": "Closed",
+    "created_at": "2026-06-25T04:47:22.530688",
+    "_id": "3cd5cd4b-c3ff-459c-9b9f-d49e2d5bba28"
+  },
+  {
+    "alert_type": "Brute Force Attack",
+    "severity": "Critical",
+    "source_ip": "172.16.8.99",
+    "description": "SIEM Alert triggered: Brute Force Attack events detected from source node IP: 172.16.8.99",
+    "status": "Investigating",
+    "created_at": "2026-06-24T00:55:08.530688",
+    "_id": "e4641f98-efc3-445c-9e58-978033e320b3"
+  },
+  {
+    "alert_type": "Brute Force Attack",
+    "severity": "Low",
+    "source_ip": "203.0.113.50",
+    "description": "SIEM Alert triggered: Brute Force Attack events detected from source node IP: 203.0.113.50",
+    "status": "Resolved",
+    "created_at": "2026-06-24T02:36:53.530688",
+    "_id": "6e134ca5-2be7-4e93-8455-f7c05633e9ba"
+  },
+  {
+    "alert_type": "Unauthorized File Modification",
+    "severity": "High",
+    "source_ip": "192.168.1.30",
+    "description": "SIEM Alert triggered: Unauthorized File Modification events detected from source node IP: 192.168.1.30",
+    "status": "Resolved",
+    "created_at": "2026-06-24T15:35:35.530688",
+    "_id": "5afce809-f4d2-4ee0-9918-bf78c8894751"
+  },
+  {
+    "alert_type": "Brute Force Attack",
+    "severity": "Critical",
+    "source_ip": "203.0.113.15",
+    "description": "SIEM Alert triggered: Brute Force Attack events detected from source node IP: 203.0.113.15",
+    "status": "Closed",
+    "created_at": "2026-06-22T00:26:54.530688",
+    "_id": "12ed4dd8-2d44-4c5a-8a29-6c6ed3007a41"
+  },
+  {
+    "alert_type": "Port Scan",
+    "severity": "High",
+    "source_ip": "10.0.4.155",
+    "description": "SIEM Alert triggered: Port Scan events detected from source node IP: 10.0.4.155",
+    "status": "Closed",
+    "created_at": "2026-06-22T14:42:04.530688",
+    "_id": "4f7f4e8f-d135-4d15-88f4-36409c0a75de"
+  }
+]

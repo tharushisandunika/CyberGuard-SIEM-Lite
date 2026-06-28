@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  # MongoDB Database Service
+  mongo:
+    image: mongo:6.0
+    container_name: cyberguard_mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+  # Flask SIEM Application Web Service
+  app:
+    build: ./backend
+    container_name: cyberguard_app
+    restart: always
+    ports:
+      - "5000:5000"
+    environment:
+      - MONGODB_URI=mongodb://mongo:27017
+      - DB_NAME=cyberguard_siem
+      - PORT=5000
+      - JWT_SECRET_KEY=cyberguard_super_secret_key
+      - NODE_ENV=production
+    depends_on:
+      - mongo
+
+volumes:
+  mongo_data:

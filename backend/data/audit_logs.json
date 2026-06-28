@@ -1,0 +1,74 @@
+[
+  {
+    "user": "system",
+    "action": "User Changes",
+    "timestamp": "2026-06-26T13:50:37.464090",
+    "ip_address": "127.0.0.1",
+    "details": "System database successfully initialized and seeded with mock datasets.",
+    "_id": "ae2aa8d4-b6aa-4592-80c8-ce90d0ec6c3e"
+  },
+  {
+    "user": "admin",
+    "action": "Login Attempts",
+    "timestamp": "2026-06-26T13:50:37.464090",
+    "ip_address": "127.0.0.1",
+    "details": "Successful administrative console log in from local loopback address.",
+    "_id": "9555377b-8ab3-4043-9bc4-472b40d9504a"
+  },
+  {
+    "user": "admin",
+    "action": "Login Attempts",
+    "timestamp": "2026-06-26T13:51:24.805270",
+    "ip_address": "127.0.0.1",
+    "details": "Successful user authentication",
+    "_id": "aa7def20-483d-4582-91a0-8009af6c782d"
+  },
+  {
+    "user": "admin",
+    "action": "Login Attempts",
+    "timestamp": "2026-06-26T13:53:47.502396",
+    "ip_address": "127.0.0.1",
+    "details": "User logged out of session",
+    "_id": "24a3ce42-9d2c-4e0a-bab4-153da96e7456"
+  },
+  {
+    "user": "admin",
+    "action": "Login Attempts",
+    "timestamp": "2026-06-26T13:54:33.472488",
+    "ip_address": "127.0.0.1",
+    "details": "Successful user authentication",
+    "_id": "3b04c2b0-c5d3-4907-9246-641af41cf474"
+  },
+  {
+    "user": "admin",
+    "action": "Login Attempts",
+    "timestamp": "2026-06-26T13:59:27.765948",
+    "ip_address": "127.0.0.1",
+    "details": "User logged out of session",
+    "_id": "8dc2b7ac-b56e-4e64-be99-20d2c8e2e37e"
+  },
+  {
+    "user": "admin",
+    "action": "Login Attempts",
+    "timestamp": "2026-06-26T13:59:56.832303",
+    "ip_address": "127.0.0.1",
+    "details": "Successful user authentication",
+    "_id": "70a4a7b9-e74c-411c-ba45-53678540a27d"
+  },
+  {
+    "user": "tharushi",
+    "action": "Login Attempts",
+    "timestamp": "2026-06-26T14:17:59.827928",
+    "ip_address": "127.0.0.1",
+    "details": "Failed login attempt: invalid username",
+    "_id": "66c8c7da-fa27-4f08-8d8b-a197598ea9f6"
+  },
+  {
+    "user": "tharushi",
+    "action": "User Changes",
+    "timestamp": "2026-06-26T14:18:33.504370",
+    "ip_address": "127.0.0.1",
+    "details": "Analyst account registered successfully with role: Admin",
+    "_id": "6233f371-cfd9-4b50-81c2-d4a8a3824f81"
+  }
+]

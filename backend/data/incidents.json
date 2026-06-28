@@ -1,0 +1,202 @@
+[
+  {
+    "title": "Ransomware Executable Flagged (#1000)",
+    "description": "Security analyst review required for ransomware executable flagged (#1000). Investigate correlated log flows immediately.",
+    "severity": "High",
+    "assigned_to": "admin",
+    "status": "Closed",
+    "created_at": "2026-06-25T18:32:02.530688",
+    "updated_at": "2026-06-25T18:32:02.530688",
+    "_id": "31cc3f0a-5472-43eb-8e1a-ef4315884fce"
+  },
+  {
+    "title": "Active SSH Dictionary Probe (#1001)",
+    "description": "Security analyst review required for active ssh dictionary probe (#1001). Investigate correlated log flows immediately.",
+    "severity": "High",
+    "assigned_to": "analyst1",
+    "status": "Resolved",
+    "created_at": "2026-06-24T15:22:54.530688",
+    "updated_at": "2026-06-24T15:22:54.530688",
+    "_id": "51dc06af-6939-4b82-aad2-f474049a944b"
+  },
+  {
+    "title": "System Daemon Crash Loop (#1002)",
+    "description": "Security analyst review required for system daemon crash loop (#1002). Investigate correlated log flows immediately.",
+    "severity": "Medium",
+    "assigned_to": "analyst2",
+    "status": "Investigating",
+    "created_at": "2026-06-25T00:57:49.530688",
+    "updated_at": "2026-06-25T00:57:49.530688",
+    "_id": "21da9008-eb75-4fb1-96bf-9e7ca200be5e"
+  },
+  {
+    "title": "External VPN Session Ingestion (#1003)",
+    "description": "Security analyst review required for external vpn session ingestion (#1003). Investigate correlated log flows immediately.",
+    "severity": "Critical",
+    "assigned_to": "admin",
+    "status": "Open",
+    "created_at": "2026-06-22T06:16:33.530688",
+    "updated_at": "2026-06-22T06:16:33.530688",
+    "_id": "e9efd81a-71eb-4ec0-a96e-f5450dbc685b"
+  },
+  {
+    "title": "Analyst Password Rotate Required (#1004)",
+    "description": "Security analyst review required for analyst password rotate required (#1004). Investigate correlated log flows immediately.",
+    "severity": "Medium",
+    "assigned_to": "admin",
+    "status": "Closed",
+    "created_at": "2026-06-21T20:23:13.530688",
+    "updated_at": "2026-06-21T20:23:13.530688",
+    "_id": "ed1c4361-32f0-4b0d-b5c7-9c0b3b30561e"
+  },
+  {
+    "title": "Active SSH Dictionary Probe (#1005)",
+    "description": "Security analyst review required for active ssh dictionary probe (#1005). Investigate correlated log flows immediately.",
+    "severity": "Medium",
+    "assigned_to": "analyst1",
+    "status": "Open",
+    "created_at": "2026-06-23T22:14:17.530688",
+    "updated_at": "2026-06-23T22:14:17.530688",
+    "_id": "e3bf9752-bdeb-4b76-bcdd-c98a82de3436"
+  },
+  {
+    "title": "Abnormal CPU Threshold Spike (#1006)",
+    "description": "Security analyst review required for abnormal cpu threshold spike (#1006). Investigate correlated log flows immediately.",
+    "severity": "Medium",
+    "assigned_to": "analyst2",
+    "status": "Resolved",
+    "created_at": "2026-06-23T22:38:30.530688",
+    "updated_at": "2026-06-23T22:38:30.530688",
+    "_id": "4910999b-c872-4d17-8b10-7f74fb988d74"
+  },
+  {
+    "title": "Analyst Password Rotate Required (#1007)",
+    "description": "Security analyst review required for analyst password rotate required (#1007). Investigate correlated log flows immediately.",
+    "severity": "Critical",
+    "assigned_to": "analyst1",
+    "status": "Resolved",
+    "created_at": "2026-06-21T15:21:35.530688",
+    "updated_at": "2026-06-21T15:21:35.530688",
+    "_id": "59b3b609-4822-4cfa-ace7-509da57963af"
+  },
+  {
+    "title": "Multiple Firewall Port Scans (#1008)",
+    "description": "Security analyst review required for multiple firewall port scans (#1008). Investigate correlated log flows immediately.",
+    "severity": "Medium",
+    "assigned_to": "admin",
+    "status": "Open",
+    "created_at": "2026-06-24T00:02:20.530688",
+    "updated_at": "2026-06-24T00:02:20.530688",
+    "_id": "33708685-9b7a-42e7-a74e-99d97892427f"
+  },
+  {
+    "title": "System Daemon Crash Loop (#1009)",
+    "description": "Security analyst review required for system daemon crash loop (#1009). Investigate correlated log flows immediately.",
+    "severity": "Low",
+    "assigned_to": "analyst2",
+    "status": "Investigating",
+    "created_at": "2026-06-26T05:10:25.530688",
+    "updated_at": "2026-06-26T05:10:25.530688",
+    "_id": "7036d0f6-10dd-4176-8408-c7bb092dddba"
+  },
+  {
+    "title": "Abnormal CPU Threshold Spike (#1010)",
+    "description": "Security analyst review required for abnormal cpu threshold spike (#1010). Investigate correlated log flows immediately.",
+    "severity": "Critical",
+    "assigned_to": "analyst2",
+    "status": "Open",
+    "created_at": "2026-06-23T06:30:27.530688",
+    "updated_at": "2026-06-23T06:30:27.530688",
+    "_id": "c7a4efe0-47e0-46c9-aa29-a6f5cb810b4d"
+  },
+  {
+    "title": "Off-Hours Root Console Access (#1011)",
+    "description": "Security analyst review required for off-hours root console access (#1011). Investigate correlated log flows immediately.",
+    "severity": "High",
+    "assigned_to": "analyst1",
+    "status": "Resolved",
+    "created_at": "2026-06-21T18:29:30.530688",
+    "updated_at": "2026-06-21T18:29:30.530688",
+    "_id": "105f6bd8-5657-4b93-9b7a-43762012fc4d"
+  },
+  {
+    "title": "Internal Subnet Sweep Detected (#1012)",
+    "description": "Security analyst review required for internal subnet sweep detected (#1012). Investigate correlated log flows immediately.",
+    "severity": "High",
+    "assigned_to": "analyst1",
+    "status": "Closed",
+    "created_at": "2026-06-21T23:05:15.530688",
+    "updated_at": "2026-06-21T23:05:15.530688",
+    "_id": "b69366e1-23a7-4c2d-b0dd-1f17e1d8cf59"
+  },
+  {
+    "title": "External VPN Session Ingestion (#1013)",
+    "description": "Security analyst review required for external vpn session ingestion (#1013). Investigate correlated log flows immediately.",
+    "severity": "High",
+    "assigned_to": "analyst1",
+    "status": "Investigating",
+    "created_at": "2026-06-25T18:27:26.530688",
+    "updated_at": "2026-06-25T18:27:26.530688",
+    "_id": "1dbed12e-c221-4db2-a30e-5f71403229f4"
+  },
+  {
+    "title": "Abnormal CPU Threshold Spike (#1014)",
+    "description": "Security analyst review required for abnormal cpu threshold spike (#1014). Investigate correlated log flows immediately.",
+    "severity": "Critical",
+    "assigned_to": "admin",
+    "status": "Investigating",
+    "created_at": "2026-06-21T14:06:50.530688",
+    "updated_at": "2026-06-21T14:06:50.530688",
+    "_id": "ded9b6d8-05c9-433b-a0a9-153459bea26c"
+  },
+  {
+    "title": "Off-Hours Root Console Access (#1015)",
+    "description": "Security analyst review required for off-hours root console access (#1015). Investigate correlated log flows immediately.",
+    "severity": "Critical",
+    "assigned_to": "admin",
+    "status": "Closed",
+    "created_at": "2026-06-25T15:52:02.530688",
+    "updated_at": "2026-06-25T15:52:02.530688",
+    "_id": "8de78486-9d9d-4771-9c64-baab32f04301"
+  },
+  {
+    "title": "Abnormal CPU Threshold Spike (#1016)",
+    "description": "Security analyst review required for abnormal cpu threshold spike (#1016). Investigate correlated log flows immediately.",
+    "severity": "High",
+    "assigned_to": "admin",
+    "status": "Closed",
+    "created_at": "2026-06-25T16:13:32.530688",
+    "updated_at": "2026-06-25T16:13:32.530688",
+    "_id": "a5986084-4695-4fa4-8e69-239ff85fbfb5"
+  },
+  {
+    "title": "Abnormal CPU Threshold Spike (#1017)",
+    "description": "Security analyst review required for abnormal cpu threshold spike (#1017). Investigate correlated log flows immediately.",
+    "severity": "Critical",
+    "assigned_to": "analyst1",
+    "status": "Open",
+    "created_at": "2026-06-26T06:43:19.530688",
+    "updated_at": "2026-06-26T06:43:19.530688",
+    "_id": "b04fbdf0-bb10-4dbc-816a-01cba468a567"
+  },
+  {
+    "title": "Multiple Firewall Port Scans (#1018)",
+    "description": "Security analyst review required for multiple firewall port scans (#1018). Investigate correlated log flows immediately.",
+    "severity": "High",
+    "assigned_to": "admin",
+    "status": "Resolved",
+    "created_at": "2026-06-25T22:39:03.530688",
+    "updated_at": "2026-06-25T22:39:03.530688",
+    "_id": "9d54bc4e-6eb8-49f7-91ca-d4c099999f95"
+  },
+  {
+    "title": "External VPN Session Ingestion (#1019)",
+    "description": "Security analyst review required for external vpn session ingestion (#1019). Investigate correlated log flows immediately.",
+    "severity": "High",
+    "assigned_to": "analyst2",
+    "status": "Closed",
+    "created_at": "2026-06-21T16:55:19.530688",
+    "updated_at": "2026-06-21T16:55:19.530688",
+    "_id": "893258b7-48bd-40fb-b868-f079d38e1127"
+  }
+]

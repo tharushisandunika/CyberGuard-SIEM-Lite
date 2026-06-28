@@ -1,0 +1,416 @@
+{
+  "info": {
+    "_postman_id": "7f09c620-3b9f-4318-8422-9dc887019ce2",
+    "name": "CyberGuard SIEM Lite REST API",
+    "description": "Complete collection of API test requests for the CyberGuard SIEM platform.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "1. Auth Module",
+      "item": [
+        {
+          "name": "Register Analyst Account",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"username\": \"analyst3\",\n  \"email\": \"analyst3@cyberguard.local\",\n  \"password\": \"analystpassword\",\n  \"role\": \"Security Analyst\"\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/auth/register",
+              "host": ["{{base_url}}"],
+              "path": ["auth", "register"]
+            }
+          }
+        },
+        {
+          "name": "Login User (Auto Token Extract)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "var jsonData = pm.response.json();",
+                  "if (jsonData.token) {",
+                  "    pm.environment.set(\"jwt_token\", jsonData.token);",
+                  "    console.log(\"Saved JWT Token to environment: \" + jsonData.token);",
+                  "}"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"username\": \"analyst1\",\n  \"password\": \"analystpassword\"\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/auth/login",
+              "host": ["{{base_url}}"],
+              "path": ["auth", "login"]
+            }
+          }
+        },
+        {
+          "name": "Logout Analyst User",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{jwt_token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/auth/logout",
+              "host": ["{{base_url}}"],
+              "path": ["auth", "logout"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "2. Logs Module",
+      "item": [
+        {
+          "name": "Ingest Security Log (Trigger Alert Engine)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"source\": \"Palo Alto Firewall\",\n  \"event_type\": \"PORT_CONNECTION\",\n  \"ip_address\": \"203.0.113.50\",\n  \"message\": \"Connection attempt on TCP port 443\",\n  \"status\": \"success\"\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/logs",
+              "host": ["{{base_url}}"],
+              "path": ["logs"]
+            }
+          }
+        },
+        {
+          "name": "Fetch Paginated Logs",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{jwt_token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/logs?page=1&limit=25",
+              "host": ["{{base_url}}"],
+              "path": ["logs"],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "1"
+                },
+                {
+                  "key": "limit",
+                  "value": "25"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Search & Filter Logs",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{jwt_token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/logs/search?severity=Medium&event_type=LOGIN_FAILED",
+              "host": ["{{base_url}}"],
+              "path": ["logs", "search"],
+              "query": [
+                {
+                  "key": "severity",
+                  "value": "Medium"
+                },
+                {
+                  "key": "event_type",
+                  "value": "LOGIN_FAILED"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "3. Alerts Module",
+      "item": [
+        {
+          "name": "Get raised alerts",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{jwt_token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/alerts?status=Open",
+              "host": ["{{base_url}}"],
+              "path": ["alerts"],
+              "query": [
+                {
+                  "key": "status",
+                  "value": "Open"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Alert status (Triage)",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{jwt_token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"status\": \"Investigating\",\n  \"assigned_to\": \"analyst1\"\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/alerts/replace_id_here",
+              "host": ["{{base_url}}"],
+              "path": ["alerts", "replace_id_here"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "4. Incidents Module",
+      "item": [
+        {
+          "name": "Create Incident Case",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{jwt_token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"Incident: SSH dictionary threat detected\",\n  \"description\": \"Staggered failed logins logged from external IP subnet. Host quarantined.\",\n  \"severity\": \"High\",\n  \"assigned_to\": \"analyst1\"\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/incidents",
+              "host": ["{{base_url}}"],
+              "path": ["incidents"]
+            }
+          }
+        },
+        {
+          "name": "Get incidents list",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{jwt_token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/incidents",
+              "host": ["{{base_url}}"],
+              "path": ["incidents"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "5. Threat Simulator",
+      "item": [
+        {
+          "name": "Simulate Brute Force Attack",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{jwt_token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/simulator/brute-force",
+              "host": ["{{base_url}}"],
+              "path": ["simulator", "brute-force"]
+            }
+          }
+        },
+        {
+          "name": "Simulate TCP Port Scan",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{jwt_token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/simulator/port-scan",
+              "host": ["{{base_url}}"],
+              "path": ["simulator", "port-scan"]
+            }
+          }
+        },
+        {
+          "name": "Simulate Suspicious Off-Hours Login",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{jwt_token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "url": {
+              "raw": "{{base_url}}/simulator/suspicious-login",
+              "host": ["{{base_url}}"],
+              "path": ["simulator", "suspicious-login"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "6. Reports & Exporters",
+      "item": [
+        {
+          "name": "Export logs to CSV",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{jwt_token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/reports/export/csv/logs",
+              "host": ["{{base_url}}"],
+              "path": ["reports", "export", "csv", "logs"]
+            }
+          }
+        },
+        {
+          "name": "Export stats PDF compliance report",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{jwt_token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/reports/export/pdf",
+              "host": ["{{base_url}}"],
+              "path": ["reports", "export", "pdf"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
