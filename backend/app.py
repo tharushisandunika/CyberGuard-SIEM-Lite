@@ -1,5 +1,11 @@
 import os
 import sys
+
+# Ensure the backend directory is in the system path for Vercel/serverless execution
+backend_dir = os.path.dirname(os.path.abspath(__file__))
+if backend_dir not in sys.path:
+    sys.path.insert(0, backend_dir)
+
 from flask import Flask, render_template, jsonify
 from flask_cors import CORS
 from flask_jwt_extended import JWTManager

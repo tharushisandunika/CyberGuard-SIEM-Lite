@@ -1,8 +1,13 @@
 import os
 from dotenv import load_dotenv
 
-# Load environment variables
-load_dotenv()
+# Load environment variables (resolving absolute path to support root execution on Vercel)
+config_dir = os.path.dirname(os.path.abspath(__file__))
+env_path = os.path.join(os.path.dirname(config_dir), '.env')
+if os.path.exists(env_path):
+    load_dotenv(env_path)
+else:
+    load_dotenv()
 
 # App Settings
 PORT = int(os.environ.get('PORT', 5000))

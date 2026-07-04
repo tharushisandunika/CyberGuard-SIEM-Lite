@@ -8,7 +8,11 @@ from pymongo.errors import ConnectionFailure, ServerSelectionTimeoutError
 from .config import MONGODB_URI, DB_NAME
 
 # Setup local JSON fallback directories
-FALLBACK_DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data')
+if os.environ.get('VERCEL') == '1':
+    # Vercel filesystem is read-only except /tmp
+    FALLBACK_DATA_DIR = '/tmp/data'
+else:
+    FALLBACK_DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data')
 
 class FallbackCollection:
     def __init__(self, name, data_dir):
