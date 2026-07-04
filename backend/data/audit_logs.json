@@ -70,5 +70,141 @@
     "ip_address": "127.0.0.1",
     "details": "Analyst account registered successfully with role: Admin",
     "_id": "6233f371-cfd9-4b50-81c2-d4a8a3824f81"
+  },
+  {
+    "user": "Alert Engine",
+    "action": "Alert Changes",
+    "timestamp": "2026-06-28T02:27:13.046081",
+    "ip_address": "127.0.0.1",
+    "details": "Auto-generated Critical Suspicious Login alert for IP 192.168.1.30",
+    "_id": "c8e13b24-9a5e-478b-94a2-29ec1ff9b84f"
+  },
+  {
+    "user": "tharushi",
+    "action": "Login Attempts",
+    "timestamp": "2026-06-28T02:28:26.106216",
+    "ip_address": "127.0.0.1",
+    "details": "Successful user authentication",
+    "_id": "36ab5117-e42c-4106-bd9d-ab6cf7df412a"
+  },
+  {
+    "user": "Alert Engine",
+    "action": "Alert Changes",
+    "timestamp": "2026-06-28T02:28:53.443636",
+    "ip_address": "127.0.0.1",
+    "details": "Auto-generated Critical Suspicious Login alert for IP 192.168.1.15",
+    "_id": "731eb8d7-d262-4619-9c8f-c7a28bc30ef2"
+  },
+  {
+    "user": "Alert Engine",
+    "action": "Alert Changes",
+    "timestamp": "2026-06-28T02:29:51.070713",
+    "ip_address": "127.0.0.1",
+    "details": "Auto-generated Critical Suspicious Login alert for IP 198.51.100.12",
+    "_id": "95dc537f-abe4-4a78-9dbe-2780f2295875"
+  },
+  {
+    "user": "Alert Engine",
+    "action": "Alert Changes",
+    "timestamp": "2026-06-28T02:30:03.133691",
+    "ip_address": "127.0.0.1",
+    "details": "Auto-generated Critical Suspicious Login alert for IP 192.168.1.15",
+    "_id": "133cf5d3-08b4-4dc4-a331-871ace3f55cf"
+  },
+  {
+    "user": "Alert Engine",
+    "action": "Alert Changes",
+    "timestamp": "2026-06-28T02:30:19.222765",
+    "ip_address": "127.0.0.1",
+    "details": "Auto-generated Critical Suspicious Login alert for IP 203.0.113.15",
+    "_id": "060b3e0f-ac7c-4e92-ac26-a9d6989e8dbc"
+  },
+  {
+    "user": "Alert Engine",
+    "action": "Alert Changes",
+    "timestamp": "2026-06-28T02:31:23.601025",
+    "ip_address": "127.0.0.1",
+    "details": "Auto-generated Critical Suspicious Login alert for IP 192.168.1.15",
+    "_id": "93ed4ab7-5626-4f14-af3c-75632f6962a8"
+  },
+  {
+    "user": "tharushi",
+    "action": "Login Attempts",
+    "timestamp": "2026-06-28T02:32:11.691238",
+    "ip_address": "127.0.0.1",
+    "details": "User logged out of session",
+    "_id": "e4b8a080-ef66-4250-9525-5b98a6dbb13a"
+  },
+  {
+    "user": "Alert Engine",
+    "action": "Alert Changes",
+    "timestamp": "2026-06-28T02:32:50.641451",
+    "ip_address": "127.0.0.1",
+    "details": "Auto-generated Critical Suspicious Login alert for IP 192.168.1.30",
+    "_id": "f45d0874-6c35-4e3c-8a9a-13cce3b31641"
+  },
+  {
+    "user": "Alert Engine",
+    "action": "Alert Changes",
+    "timestamp": "2026-06-28T02:33:24.314871",
+    "ip_address": "127.0.0.1",
+    "details": "Auto-generated Critical Suspicious Login alert for IP 10.0.4.22",
+    "_id": "8add040e-85bc-4701-b7eb-c6ad9e73af1f"
+  },
+  {
+    "user": "tharushisandunika",
+    "action": "User Changes",
+    "timestamp": "2026-06-28T02:33:32.470899",
+    "ip_address": "127.0.0.1",
+    "details": "Analyst account registered successfully with role: Admin",
+    "_id": "4bb01313-f17e-43b7-814a-eed6a5917171"
+  },
+  {
+    "user": "tharushisandunika",
+    "action": "Login Attempts",
+    "timestamp": "2026-06-28T02:33:39.890638",
+    "ip_address": "127.0.0.1",
+    "details": "User logged out of session",
+    "_id": "1d189a0f-4b55-4125-a525-80be916b8859"
+  },
+  {
+    "user": "Alert Engine",
+    "action": "Alert Changes",
+    "timestamp": "2026-06-28T02:34:00.559996",
+    "ip_address": "127.0.0.1",
+    "details": "Auto-generated Critical Suspicious Login alert for IP 185.220.101.5",
+    "_id": "171d26d1-9d07-4703-9a46-ffa4c0e67c15"
+  },
+  {
+    "user": "admin",
+    "action": "Login Attempts",
+    "timestamp": "2026-07-04T10:54:17.117629",
+    "ip_address": "127.0.0.1",
+    "details": "Failed login attempt: invalid password",
+    "_id": "f49ce07b-6338-4912-951c-e4660938d042"
+  },
+  {
+    "user": "admin",
+    "action": "Login Attempts",
+    "timestamp": "2026-07-04T10:54:29.351763",
+    "ip_address": "127.0.0.1",
+    "details": "Successful user authentication",
+    "_id": "aac5fc95-5421-40ab-9d36-04f779e77086"
+  },
+  {
+    "user": "admin",
+    "action": "Login Attempts",
+    "timestamp": "2026-07-04T10:57:51.778584",
+    "ip_address": "127.0.0.1",
+    "details": "User logged out of session",
+    "_id": "902857f7-8268-4455-be46-87f46ded304b"
+  },
+  {
+    "user": "analyst1",
+    "action": "Login Attempts",
+    "timestamp": "2026-07-04T10:58:40.948861",
+    "ip_address": "127.0.0.1",
+    "details": "Successful user authentication",
+    "_id": "65810957-00eb-4cc2-8ff9-7c3a60456744"
   }
 ]

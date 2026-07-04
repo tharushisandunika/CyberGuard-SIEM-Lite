@@ -448,5 +448,86 @@
     "status": "Closed",
     "created_at": "2026-06-22T14:42:04.530688",
     "_id": "4f7f4e8f-d135-4d15-88f4-36409c0a75de"
+  },
+  {
+    "alert_type": "Suspicious Login",
+    "severity": "Critical",
+    "source_ip": "192.168.1.30",
+    "description": "Administrative login success for user 'root' from IP 192.168.1.30 at abnormal hour (02:27 AM).",
+    "status": "Open",
+    "created_at": "2026-06-28T02:27:13.040702",
+    "_id": "29cad506-f38e-4d76-bc5d-8bc222eea1aa"
+  },
+  {
+    "alert_type": "Suspicious Login",
+    "severity": "Critical",
+    "source_ip": "192.168.1.15",
+    "description": "Administrative login success for user 'root' from IP 192.168.1.15 at abnormal hour (02:28 AM).",
+    "status": "Open",
+    "created_at": "2026-06-28T02:28:53.443636",
+    "_id": "bdaf050c-d714-441d-8338-f86cf05f7deb"
+  },
+  {
+    "alert_type": "Suspicious Login",
+    "severity": "Critical",
+    "source_ip": "198.51.100.12",
+    "description": "Administrative login success for user 'root' from IP 198.51.100.12 at abnormal hour (02:29 AM).",
+    "status": "Open",
+    "created_at": "2026-06-28T02:29:51.051963",
+    "_id": "abd647e9-4843-4acb-b86d-224b3f87695e"
+  },
+  {
+    "alert_type": "Suspicious Login",
+    "severity": "Critical",
+    "source_ip": "192.168.1.15",
+    "description": "Administrative login success for user 'admin' from IP 192.168.1.15 at abnormal hour (02:30 AM).",
+    "status": "Open",
+    "created_at": "2026-06-28T02:30:03.131671",
+    "_id": "122905a9-9ea1-4cb9-97e7-69c2e61eec7c"
+  },
+  {
+    "alert_type": "Suspicious Login",
+    "severity": "Critical",
+    "source_ip": "203.0.113.15",
+    "description": "Administrative login success for user 'root' from IP 203.0.113.15 at abnormal hour (02:30 AM).",
+    "status": "Open",
+    "created_at": "2026-06-28T02:30:19.222765",
+    "_id": "9d53c700-43c9-4a57-b677-7b57a375a492"
+  },
+  {
+    "alert_type": "Suspicious Login",
+    "severity": "Critical",
+    "source_ip": "192.168.1.15",
+    "description": "Administrative login success for user 'root' from IP 192.168.1.15 at abnormal hour (02:31 AM).",
+    "status": "Open",
+    "created_at": "2026-06-28T02:31:23.584954",
+    "_id": "ad3c826c-f2b0-4896-9d35-b3e58dd83855"
+  },
+  {
+    "alert_type": "Suspicious Login",
+    "severity": "Critical",
+    "source_ip": "192.168.1.30",
+    "description": "Administrative login success for user 'admin' from IP 192.168.1.30 at abnormal hour (02:32 AM).",
+    "status": "Open",
+    "created_at": "2026-06-28T02:32:50.641451",
+    "_id": "05ff3b68-c965-4d2f-8071-3d8097c4d2ad"
+  },
+  {
+    "alert_type": "Suspicious Login",
+    "severity": "Critical",
+    "source_ip": "10.0.4.22",
+    "description": "Administrative login success for user 'root' from IP 10.0.4.22 at abnormal hour (02:33 AM).",
+    "status": "Open",
+    "created_at": "2026-06-28T02:33:24.314871",
+    "_id": "e3a0440f-3dd9-45db-aa88-235164e7782e"
+  },
+  {
+    "alert_type": "Suspicious Login",
+    "severity": "Critical",
+    "source_ip": "185.220.101.5",
+    "description": "Administrative login success for user 'root' from IP 185.220.101.5 at abnormal hour (02:34 AM).",
+    "status": "Open",
+    "created_at": "2026-06-28T02:34:00.559996",
+    "_id": "c955d2dc-dfbb-4f27-b3a8-cdb6987bba21"
   }
 ]
